@@ -1,0 +1,5 @@
+生成静态库（包含xib等资源文件）例子
+
+注意：
+1. xib需要加入到BuildPhases的Copy Files中
+2. 如果生成的资源bundle文件中没有xib，可以让xib有些变化以便加入到bundle中
