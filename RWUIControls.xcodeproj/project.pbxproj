@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		092309AE1BBB701E00BA81DA /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 092309AF1BBB701E00BA81DA /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				092309B21BBB70D600BA81DA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0912817A1BBBB4330054A867 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091281791BBBB4330054A867 /* MyView.m */; };
+		092309911BBB6AF000BA81DA /* RWUIControls.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 092309901BBB6AF000BA81DA /* RWUIControls.h */; };
+		092309A81BBB6B5D00BA81DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092309A71BBB6B5D00BA81DA /* UIKit.framework */; };
+		092309AD1BBB6E0200BA81DA /* RWUIControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 092309AC1BBB6E0200BA81DA /* RWUIControls.m */; };
+		0927C0B61BC2B4680063538F /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0912817B1BBBB4520054A867 /* MyView.xib */; };
+		0927C0BA1BC2B66A0063538F /* MyView.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0912817B1BBBB4520054A867 /* MyView.xib */; };
+		099128A51BC2AFB000B7EF6B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 099128A41BC2AFB000B7EF6B /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0923098B1BBB6AF000BA81DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0927C0BA1BC2B66A0063538F /* MyView.xib in CopyFiles */,
+				092309911BBB6AF000BA81DA /* RWUIControls.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0902181E1BBBCC3F00A79A83 /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		090218211BBBCC3F00A79A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091281781BBBB4330054A867 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		091281791BBBB4330054A867 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		0912817B1BBBB4520054A867 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		0923098D1BBB6AF000BA81DA /* libRWUIControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRWUIControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		092309901BBB6AF000BA81DA /* RWUIControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWUIControls.h; sourceTree = "<group>"; };
+		092309A71BBB6B5D00BA81DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		092309AC1BBB6E0200BA81DA /* RWUIControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWUIControls.m; sourceTree = "<group>"; };
+		099128A41BC2AFB000B7EF6B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0902181B1BBBCC3F00A79A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0923098A1BBB6AF000BA81DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092309A81BBB6B5D00BA81DA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0902181F1BBBCC3F00A79A83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				099128A41BC2AFB000B7EF6B /* 1.png */,
+				092309A71BBB6B5D00BA81DA /* UIKit.framework */,
+				090218201BBBCC3F00A79A83 /* Supporting Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		090218201BBBCC3F00A79A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090218211BBBCC3F00A79A83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		092309841BBB6AF000BA81DA = {
+			isa = PBXGroup;
+			children = (
+				0923098F1BBB6AF000BA81DA /* RWUIControls */,
+				0902181F1BBBCC3F00A79A83 /* Resources */,
+				0923098E1BBB6AF000BA81DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0923098E1BBB6AF000BA81DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0923098D1BBB6AF000BA81DA /* libRWUIControls.a */,
+				0902181E1BBBCC3F00A79A83 /* Resources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0923098F1BBB6AF000BA81DA /* RWUIControls */ = {
+			isa = PBXGroup;
+			children = (
+				092309901BBB6AF000BA81DA /* RWUIControls.h */,
+				092309AC1BBB6E0200BA81DA /* RWUIControls.m */,
+				091281781BBBB4330054A867 /* MyView.h */,
+				091281791BBBB4330054A867 /* MyView.m */,
+				0912817B1BBBB4520054A867 /* MyView.xib */,
+			);
+			path = RWUIControls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0902181D1BBBCC3F00A79A83 /* Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090218221BBBCC3F00A79A83 /* Build configuration list for PBXNativeTarget "Resources" */;
+			buildPhases = (
+				0902181A1BBBCC3F00A79A83 /* Sources */,
+				0902181B1BBBCC3F00A79A83 /* Frameworks */,
+				0902181C1BBBCC3F00A79A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resources;
+			productName = Resources;
+			productReference = 0902181E1BBBCC3F00A79A83 /* Resources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0923098C1BBB6AF000BA81DA /* RWUIControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092309A11BBB6AF000BA81DA /* Build configuration list for PBXNativeTarget "RWUIControls" */;
+			buildPhases = (
+				092309891BBB6AF000BA81DA /* Sources */,
+				0923098A1BBB6AF000BA81DA /* Frameworks */,
+				0923098B1BBB6AF000BA81DA /* CopyFiles */,
+				092309A91BBB6C2F00BA81DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWUIControls;
+			productName = RWUIControls;
+			productReference = 0923098D1BBB6AF000BA81DA /* libRWUIControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092309851BBB6AF000BA81DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = moki;
+				TargetAttributes = {
+					0902181D1BBBCC3F00A79A83 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					0923098C1BBB6AF000BA81DA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					092309AE1BBB701E00BA81DA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 092309881BBB6AF000BA81DA /* Build configuration list for PBXProject "RWUIControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 092309841BBB6AF000BA81DA;
+			productRefGroup = 0923098E1BBB6AF000BA81DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0923098C1BBB6AF000BA81DA /* RWUIControls */,
+				092309AE1BBB701E00BA81DA /* UniversalLib */,
+				0902181D1BBBCC3F00A79A83 /* Resources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0902181C1BBBCC3F00A79A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0927C0B61BC2B4680063538F /* MyView.xib in Resources */,
+				099128A51BC2AFB000B7EF6B /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092309A91BBB6C2F00BA81DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		092309B21BBB70D600BA81DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target RWUIControls -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target RWUIControls ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target Resources ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/Resources.bundle\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0902181A1BBBCC3F00A79A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092309891BBB6AF000BA81DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0912817A1BBBB4330054A867 /* MyView.m in Sources */,
+				092309AD1BBB6E0200BA81DA /* RWUIControls.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		090218231BBBCC3F00A79A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		090218241BBBCC3F00A79A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0923099F1BBB6AF000BA81DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		092309A01BBB6AF000BA81DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		092309A21BBB6AF000BA81DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		092309A31BBB6AF000BA81DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		092309B01BBB701E00BA81DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		092309B11BBB701E00BA81DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090218221BBBCC3F00A79A83 /* Build configuration list for PBXNativeTarget "Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090218231BBBCC3F00A79A83 /* Debug */,
+				090218241BBBCC3F00A79A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092309881BBB6AF000BA81DA /* Build configuration list for PBXProject "RWUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0923099F1BBB6AF000BA81DA /* Debug */,
+				092309A01BBB6AF000BA81DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092309A11BBB6AF000BA81DA /* Build configuration list for PBXNativeTarget "RWUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092309A21BBB6AF000BA81DA /* Debug */,
+				092309A31BBB6AF000BA81DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092309AF1BBB701E00BA81DA /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092309B01BBB701E00BA81DA /* Debug */,
+				092309B11BBB701E00BA81DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092309851BBB6AF000BA81DA /* Project object */;
+}
